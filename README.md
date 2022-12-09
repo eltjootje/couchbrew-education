@@ -1,2 +1,2 @@
-# couchbrew-education
-Home brewed educational doodles and tidbits
+# couchbrew-leespraat
+Home brewed educational doodle for the "leespraat" method.
