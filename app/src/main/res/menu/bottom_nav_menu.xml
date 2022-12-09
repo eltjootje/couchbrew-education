@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_luister"
+        android:icon="@drawable/ic_baseline_headset_24"
+        android:title="@string/title_luister" />
+
+    <item
+        android:id="@+id/navigation_zoek"
+        android:icon="@drawable/ic_baseline_pan_tool_24"
+        android:title="@string/title_zoek" />
+
+    <item
+        android:id="@+id/navigation_zinnen"
+        android:icon="@drawable/ic_baseline_extension_24"
+        android:title="@string/title_zinnen" />
+
+</menu>

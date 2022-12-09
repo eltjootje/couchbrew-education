@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lees praat</string>
+    <string name="title_luister">Luister</string>
+    <string name="title_zoek">Zoek</string>
+    <string name="title_zinnen">Zinnen maken</string>
+</resources>

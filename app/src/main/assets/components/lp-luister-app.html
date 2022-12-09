@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<template id="lp-luister-app-template">
+    <style>
+        header {
+            color: white;
+            background-color: blue;
+        }
+
+        .lp-luister-container {
+            width: 100%;
+            height: 90vh;
+        }
+    </style>
+    <header><slot name="lp-luister-header">Hallo Josje</slot></header>
+    <audio class ="lp-luister-player" src="audio/t-rex-roar.mp3">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+    <div class="lp-luister-container">
+        <canvas class="lp-luister-canvas"></canvas>
+    </div>
+</template>

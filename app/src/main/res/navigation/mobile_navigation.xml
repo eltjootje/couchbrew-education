@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_luister">
+
+    <fragment
+        android:id="@+id/navigation_luister"
+        android:name="com.couchbrew.leespraat.ui.luister.LuisterFragment"
+        android:label="@string/title_luister"
+        tools:layout="@layout/fragment_luister" />
+
+    <fragment
+        android:id="@+id/navigation_zoek"
+        android:name="com.couchbrew.leespraat.ui.zoek.ZoekFragment"
+        android:label="@string/title_zoek"
+        tools:layout="@layout/fragment_zoek" />
+
+    <fragment
+        android:id="@+id/navigation_zinnen"
+        android:name="com.couchbrew.leespraat.ui.zinnen.ZinnenFragment"
+        android:label="@string/title_zinnen"
+        tools:layout="@layout/fragment_zinnen" />
+</navigation>
